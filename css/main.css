@@ -3,6 +3,9 @@
     width: 100%;
     height: 100%;
 }
+ul{
+    padding: 0px!important;
+}
 .menu-principal{
     width: 100%;
     background-color: #252323;
@@ -32,12 +35,18 @@ list-style: none;
     float: right;
 }
 .header-2{
+   
     background-color: #ffffff;
-    width: 100%;
-    border-bottom: 3px solid gray;
+    width: 980px;
+    margin:0 auto;
+    padding: 16px;
+   
+}
+.menu-urls{
+    height: 80px;
+    border-bottom: 3px solid #808080;
 
 }
-
 .menu ul li {
     display: inline-block;
     color: #8b8b8b;
@@ -52,11 +61,25 @@ list-style: none;
     text-transform: uppercase;
 }
 .menu{
-    width:70%;
+    width:60%;
     float: left;
+    text-align: left;
 }
 
 .busca{
-    width: 30%;
+    width: 40%;
     float: right;
+    
+}
+.busca input{
+    height: 30px;
+    margin-top: 10px;
+    padding-left: 12px;
+    width: 190px;
+   border: 1px solid #808080;
+}
+.col-100{
+    width: 100%;
+    float:left;
+    position: relative;
 }
